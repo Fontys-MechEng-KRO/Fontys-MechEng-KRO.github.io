@@ -1,0 +1,31 @@
+body{text-align:center; font-family: Arial; height: 41vw; width:100vw; align-content: center; }
+
+#titel{position: relative; height:7vw; width: 95vw}
+    .doetitel1{height: 7vw; width: 5vw} 
+    .creditcard{height: 6.5vw; transform: rotate(270deg) }
+    .doetitel{width: 88vw; height: 3.5vw; font-size: 5vw; font-weight: bold;}
+    .titelmould{width: 88vw; height: 3.5vw; font-size: 3vw; font-weight: bold; color: rgb(0, 139, 225);}
+
+#grouptitel{font-size: 0.85vw; font-weight: bold;background-color: transparent;}
+
+#canvas{height: 4vw; width: 41vw}
+ 
+#machine{position: relative; width: 95vw; height:34vw}
+    .spuitgiet{background-image: url(spuitgietmachine.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; width: 54vw; height: 32vw;}
+    .machineset{font-size: vw; font-weight: bold; display: block; position: absolute; left: 2vw; bottom: 32vw; cursor: pointer;background-color: white;}
+    .masstemp{font-size: 0.9vw; display: block; position: absolute; left: 2.1vw; bottom: 23vw; cursor: pointer;}
+    .switchover{font-size: 0.9vw; display: block; position: absolute; left: 2.1vw; bottom: 18vw; cursor: pointer;}
+    .mattemp{font-size: 0.9vw; display: block; position: absolute; left: 15vw; bottom: 12.75vw; cursor: pointer;background-color: white;}
+    .cointijd{font-size: 0.9vw; display: block; position: absolute; left: 38.2vw; bottom: 19.6vw; cursor: pointer;background-color: white;}
+    .koeltijd{font-size: 0.9vw; display: block; position: absolute; left: 29.5vw; bottom: 23.3vw; cursor: pointer;background-color: white;}
+    .nadruktijd{font-size: 0.9vw; display: block; position: absolute; left: 37vw; bottom: 9vw; cursor: pointer;background-color: white;}
+    .exceltabel{height: 30.5vw; width: 41vw ;font-size: 2vw};
+    .knoppen{height: 1.5vw; width: 41vw; align-content: center;}
+    .cdcanvas{height: 4vw; width: 41vw}
+    .addexp{width: 13vw; font-weight: bold}
+    .exportex{width: 13vw; font-weight: bold}
+    .cleartab{width: 13vw; font-weight: bold}
+    .exportdata{width: 41vw; height:30.5vw} 
+    
+  
+    

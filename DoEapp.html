@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Design of Experiments (PM3P3)</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+    <body>
+
+    <table id="titel" >
+        <tr >
+            <td class="doetitel1" rowspan="2" valign="center">  <img class="creditcard" src="CD.jpg" /> </td> 
+            <td class="doetitel" valign = "bottom"> DESIGN OF EXPERIMENTS </td>
+            </tr>
+        <tr > <td class="titelmould" valign="top" > CREDITCARD INJECTION-MOULDING SIMULATOR </td> </tr>          
+    </table>
+      
+    
+    <table id="machine">
+        <tr valign= "center">
+            <td> </td>
+            <td class="cdcanvas" valign= "bottom"> <canvas id="canvas" ></canvas> </td>
+            </tr>
+        <tr valign= "center"> 
+            <td class="spuitgiet" rowspan="2"> 
+                <div class="machineset">MACHINE SETTINGS</div>
+                <div class="masstemp">
+                    <div id = "grouptitel"> Mass temperature [degC] (X1) </div>
+                    <input type="radio" id="MTmax" name="bgMT" value="MTmax">
+                    <label for="MTmax">max 285 (+1)</label><br>
+                    <input type="radio" id="MTmin" name="bgMT" value="MTmin">
+                    <label for="MTmin">min 265 (-1)</label><br> 
+                </div>
+                <div class="switchover">
+                    <div id = "grouptitel"> Switch-over point [s] (X2) </div>
+                    <input type="radio" id="OPmax" name="bgOP" value="OPmax">
+                    <label for="OPmax">max 2.0 (+1)</label><br>
+                    <input type="radio" id="OPmin" name="bgOP" value="OPmin">
+                    <label for="OPmin">min 1.6 (-1)</label><br> 
+                </div>
+                <div class="mattemp">
+                    <div id = "grouptitel"> Mould temperature [degC] (X3) </div>
+                    <input type="radio" id="MatTmax" name="bgMatT" value="MatTmax">
+                    <label for="MatTmax">max 65 (+1)</label><br>
+                    <input type="radio" id="MatTmin" name="bgMatT" value="MatTmin">
+                    <label for="MatTmin">min 25 (-1)</label><br> 
+                </div>
+                <div class="cointijd">
+                    <div id = "grouptitel"> Coining time [s] (X5) </div>
+                    <input type="radio" id="CTmax" name="bgCT" value="CTmax">
+                    <label for="CTmax">max 0.20 (+1)</label><br>
+                    <input type="radio" id="CTmin" name="bgCT" value="CTmin">
+                    <label for="CTmin">min 0.09 (-1)</label><br> 
+                </div>
+                <div class="koeltijd">
+                    <div id = "grouptitel"> Cooling time [s] (X4) </div>
+                    <input type="radio" id="KTmax" name="bgKT" value="KTmax">
+                    <label for="KTmax">max 4.0 (+1)</label><br>
+                    <input type="radio" id="KTmin" name="bgKT" value="KTmin">
+                    <label for="KTmin">min 1.7 (-1)</label><br> 
+                </div>
+                <div class="nadruktijd">
+                    <div id = "grouptitel"> Pressure holding time [s] (X6) </div>
+                    <input type="radio" id="NTmax" name="bgNT" value="NTmax">
+                    <label for="NTmax">max 0.6 (+1)</label><br>
+                    <input type="radio" id="NTmin" name="bgNT" value="NTmin">
+                    <label for="NTmin">min 0.2 (-1)</label><br> 
+                </div>
+
+            </td> 
+            <td class = "knoppen"> <button class="addexp" id="experiment"> Add experiment</button>  
+            <button class="exportex" id="excel"> Export to CSV</button>  
+            <button class="cleartab" id="tabel"> Clear table</button> </td> 
+        </tr> 
+        <tr valign= "top"> <td class="exceltabel"> 
+            <table id="exceldata" class= "exportdata"> </table>
+       </td> </tr>   
+        
+    </table>
+    
+    <script src="testbutton.js" ></script>
+    <br>
+     (c) Fontys Hogeschool Engineering 
+    
+  </body>
+</html>
