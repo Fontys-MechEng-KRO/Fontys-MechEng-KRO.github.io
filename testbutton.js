@@ -398,6 +398,9 @@ buttonclearrow.addEventListener('click', function(){
       tbl.rows[16].cells[j].innerHTML = " ";
     }
   }
+    else{
+      return;
+      {
   counter = counter - 1;
   matrix =  Array(16).fill(array(6).fill(0));
 }
