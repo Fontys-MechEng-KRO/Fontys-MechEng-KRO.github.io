@@ -308,96 +308,112 @@ buttonclearrow.addEventListener('click', function(){
       tbl.rows[1].cells[j].innerHTML = " ";
     }
   }
+  }
     else if (counter == 3 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[2].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 4 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[3].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 5 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[4].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 6 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[5].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 7 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[6].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 8 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[7].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 9 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[8].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 10 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[9].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 11 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[10].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 12 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[11].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 13 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[12].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 14 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[13].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 15 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[14].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 16 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[15].cells[j].innerHTML = " ";
     }
   }
+}
     else if (counter == 17 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
       tbl.rows[16].cells[j].innerHTML = " ";
     }
   }
+}
  
   counter = counter - 1;
   matrix =  Array(16).fill(array(6).fill(0));
