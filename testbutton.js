@@ -305,19 +305,19 @@ buttonclearrow.addEventListener('click', function(){
   if (counter == 2) {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
-      tbl.rows[1].cells[j].innerHTML = " ";
+      tbl.rows[i = 1].cells[j].innerHTML = " ";
     }
   }
     else if (counter == 3 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
-      tbl.rows[2].cells[j].innerHTML = " ";
+      tbl.rows[i = 2].cells[j].innerHTML = " ";
     }
   }
     else if (counter == 4 {
   for (var i = 1; i<17; i++){
     for (var j = 1; j<8; j++){
-      tbl.rows[3].cells[j].innerHTML = " ";
+      tbl.rows[i = 3].cells[j].innerHTML = " ";
     }
   }
     else if (counter == 5 {
@@ -398,9 +398,7 @@ buttonclearrow.addEventListener('click', function(){
       tbl.rows[16].cells[j].innerHTML = " ";
     }
   }
-    else{
-      return;
-      {
+ 
   counter = counter - 1;
   matrix =  Array(16).fill(array(6).fill(0));
 }
