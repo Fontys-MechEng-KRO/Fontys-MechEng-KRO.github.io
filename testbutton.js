@@ -253,6 +253,7 @@ function NormSInv(p) {
 const buttonadd = document.querySelector('.addexp');
 const buttonexport = document.querySelector('.exportex');
 const buttonclear = document.querySelector('.cleartab');
+const buttonclearrow = document.querySelector('.clearrow');
 
 var counter = 1;
 
@@ -300,6 +301,16 @@ buttonclear.addEventListener('click', function(){
 }  
 , true);
 
+buttonclearrow.addEventListener('click', function(){
+  for (var i = 1; i<17; i++){
+    for (var j = 1; j<8; j++){
+      tbl.rows[i].cells[j].innerHTML = " ";
+    }
+  }
+  counter =1;
+  matrix =  Array(16).fill(array(6).fill(0));
+}
+, true);
 
 buttonexport.addEventListener('click', function(){
   if (counter == 1){
