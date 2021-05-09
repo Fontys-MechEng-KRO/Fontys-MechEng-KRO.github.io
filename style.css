@@ -20,7 +20,7 @@ body{text-align:center; font-family: Arial; height: 41vw; width:100vw; align-con
     .koeltijd{font-size: 0.9vw; display: block; position: absolute; left: 29.5vw; bottom: 23.3vw; cursor: pointer;background-color: white;}
     .nadruktijd{font-size: 0.9vw; display: block; position: absolute; left: 37vw; bottom: 9vw; cursor: pointer;background-color: white;}
     .exceltabel{height: 30.5vw; width: 41vw ;font-size: 2vw};
-    .knoppen{height: 1.5vw; width: 41vw; align-content: center;}
+    .knoppen{height: 5vw; width: 41vw; align-content: center;}
     .cdcanvas{height: 4vw; width: 41vw}
     .addexp{width: 9vw; font-weight: bold}
     .exportex{width: 9vw; font-weight: bold}
