@@ -298,7 +298,7 @@ buttonclearrow.addEventListener('click', function(){
   else{
    
       
-    matrix[counter-1]= [x1,x2,x3,x4,x5,x6];
+    matrix[counter-1]= [x1,x2,x3,x4,x5,x6,y0];
     tbl.rows[counter-1].cells[1].innerHTML = " ";
     tbl.rows[counter-1].cells[2].innerHTML = " ";
     tbl.rows[counter-1].cells[3].innerHTML = " ";
