@@ -306,27 +306,18 @@ buttonclearrow.addEventListener('click', function(){
     alert('The table is empty. There are no rows to delete.');
   }
   
-  else{
-    for(var j = 0; j<16;j++ ){
-      if (matrix[j][0]==x1 && matrix[j][1]==x2 && matrix[j][2] == x3 && matrix[j][3] == x4 && matrix[j][4] == x5 && matrix[j][5] == x6){
-        if (confirm("A similar experiment already exists in the table. Do you want to add the experiment again?")) {
-          break;
-        } else {
-          return;
-        }
-      }
-    
-    }
+  if else{
+   
       
     matrix[counter-1]= [x1,x2,x3,x4,x5,x6];
-    tbl.rows[counter].cells[1].innerHTML = x1;
-    tbl.rows[counter].cells[2].innerHTML = x2;
-    tbl.rows[counter].cells[3].innerHTML = x3;
-    tbl.rows[counter].cells[4].innerHTML = x4;
-    tbl.rows[counter].cells[5].innerHTML = x5;
-    tbl.rows[counter].cells[6].innerHTML = x6;
-    tbl.rows[counter].cells[7].innerHTML = y0.toFixed(6);
-    counter = counter + 1;
+    tbl.rows[counter-1].cells[1].innerHTML = " ";
+    tbl.rows[counter-1].cells[2].innerHTML = " ";
+    tbl.rows[counter-1].cells[3].innerHTML = " ";
+    tbl.rows[counter-1].cells[4].innerHTML = " ";
+    tbl.rows[counter-1].cells[5].innerHTML = " ";
+    tbl.rows[counter-1].cells[6].innerHTML = " ";
+    tbl.rows[counter-1].cells[7].innerHTML = " ".toFixed(6);
+    counter = counter - 1;
        
   }
 }  
