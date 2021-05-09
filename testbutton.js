@@ -305,7 +305,7 @@ buttonclearrow.addEventListener('click', function(){
     tbl.rows[counter-1].cells[4].innerHTML = " ";
     tbl.rows[counter-1].cells[5].innerHTML = " ";
     tbl.rows[counter-1].cells[6].innerHTML = " ";
-    tbl.rows[counter-1].cells[7].innerHTML = " ".toFixed(6);
+    tbl.rows[counter-1].cells[7].innerHTML = " ";
     counter = counter - 1;
        
   }
