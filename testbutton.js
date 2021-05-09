@@ -290,17 +290,6 @@ buttonadd.addEventListener('click', function(){
 }  
 , true);
 
-buttonclear.addEventListener('click', function(){
-  for (var i = 1; i<17; i++){
-    for (var j = 1; j<8; j++){
-      tbl.rows[i].cells[j].innerHTML = " ";
-    }
-  }
-  counter = 1;
-  matrix =  Array(16).fill(Array(6).fill(0));
-}  
-, true);
-
 buttonclearrow.addEventListener('click', function(){
   if (counter == 1) {
     alert('The table is empty. There are no rows to delete.');
@@ -322,6 +311,19 @@ buttonclearrow.addEventListener('click', function(){
   }
 }  
 , true);
+
+
+buttonclear.addEventListener('click', function(){
+  for (var i = 1; i<17; i++){
+    for (var j = 1; j<8; j++){
+      tbl.rows[i].cells[j].innerHTML = " ";
+    }
+  }
+  counter = 1;
+  matrix =  Array(16).fill(Array(6).fill(0));
+}  
+, true);
+
 
 buttonexport.addEventListener('click', function(){
   if (counter == 1){
