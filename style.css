@@ -22,10 +22,10 @@ body{text-align:center; font-family: Arial; height: 41vw; width:100vw; align-con
     .exceltabel{height: 30.5vw; width: 41vw ;font-size: 2vw};
     .knoppen{height: 1.5vw; width: 41vw; align-content: center;}
     .cdcanvas{height: 4vw; width: 41vw}
-    .addexp{width: 9vw; font-weight: bold}
-    .exportex{width: 9vw; font-weight: bold}
-    .cleartab{width: 9vw; font-weight: bold}
-    .clearrow{width: 9vw; font-weight: bold}
+    .addexp{width: 13vw; font-weight: bold}
+    .exportex{width: 13vw; font-weight: bold}
+    .cleartab{width: 13vw; font-weight: bold}
+    .clearrow{width: 13vw; font-weight: bold}
     .exportdata{width: 41vw; height:30.5vw} 
     
   
