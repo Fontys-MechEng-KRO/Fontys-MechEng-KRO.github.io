@@ -295,7 +295,7 @@ buttonclearrow.addEventListener('click', function(){
     alert('The table is empty. There are no rows to delete.');
   }
   
-  if (counter>1) {
+  else if (counter>1) {
     (confirm("Are you sure you want to delete the last experiment?")) {
           break;
         } else {
