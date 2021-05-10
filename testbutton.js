@@ -298,7 +298,11 @@ buttonclearrow.addEventListener('click', function(){
   
     
        
-  else{(confirm("Are you sure you want to delete the last experiment?")) {
+  else{
+    if (confirm("Are you sure you want to delete the last experiment?")) {
+      ;
+    } else {
+      return;
   }
    
       
