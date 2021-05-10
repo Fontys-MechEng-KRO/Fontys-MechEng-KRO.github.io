@@ -299,10 +299,7 @@ buttonclearrow.addEventListener('click', function(){
     
        
   else{(confirm("Are you sure you want to delete the last experiment?")) {
-          break;
-        } else {
-          return;
-        }
+  }
    
       
     matrix[counter-1]= [x1,x2,x3,x4,x5,x6,y0];
