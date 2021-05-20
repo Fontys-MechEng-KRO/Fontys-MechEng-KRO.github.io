@@ -293,11 +293,7 @@ buttonadd.addEventListener('click', function(){
 buttonclearrow.addEventListener('click', function(){
   if (counter == 1) {
     alert('The table is empty. There are no rows to delete.');
-  }
-  
-  
-    
-       
+  }   
   else{
     if (confirm("Are you sure you want to delete the last experiment?")) {
       ;
@@ -306,7 +302,7 @@ buttonclearrow.addEventListener('click', function(){
   }
    
       
-    matrix[counter-1]= [x1,x2,x3,x4,x5,x6,y0];
+    matrix[counter-2]= [0,0,0,0,0,0];
     tbl.rows[counter-1].cells[1].innerHTML = " ";
     tbl.rows[counter-1].cells[2].innerHTML = " ";
     tbl.rows[counter-1].cells[3].innerHTML = " ";
