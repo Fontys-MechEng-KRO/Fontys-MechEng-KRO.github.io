@@ -4,7 +4,7 @@ body{text-align:center; font-family: Arial; height: 41vw; width:100vw; align-con
     .doetitel1{height: 7vw; width: 5vw} 
     .creditcard{height: 6.5vw; transform: rotate(270deg) }
     .doetitel{width: 88vw; height: 3.5vw; font-size: 5vw; font-weight: bold;}
-    .titelmould{width: 88vw; height: 3.5vw; font-size: 3vw; font-weight: bold; color: rgb(188, 123, 181);}
+    .titelmould{width: 88vw; height: 3.5vw; font-size: 3vw; font-weight: bold; color: rgb(0, 139, 225);}
 
 #grouptitel{font-size: 0.85vw; font-weight: bold;background-color: transparent;}
 
